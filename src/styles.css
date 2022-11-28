@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app {
+  padding: 60px;
+}
+
+.products-list .product-item {
+  margin-bottom: 30px;
+}
+
+.products-list .product-item ul {
+  list-style: none;
+}
+
+.products-list .product-item ul li {
+  margin-bottom: 4px;
+}
+
+.products-form {
+  margin-bottom: 50px;
+}
+
+.products-form .input-container {
+  margin-bottom: 10px;
+}
+
+.products-form .input-container label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.products-form .input-container input {
+  margin-left: 8px;
+  padding: 6px 10px;
+}
+
+.products-form .submit-button {
+  padding: 8px 20px;
+  border-radius: 90px;
+  color: #fff;
+  background: purple;
+  border: none;
+}
+
+.btn {
+  padding: 5px 20px;
+  border: 0.5px solid transparent;
+  border-radius: 7px;
+}
+
+.btn__delete {
+  background-color: red;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.btn__edit {
+  background-color: blue;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.btn__submit {
+  background-color: green;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.btn__cancel {
+  background-color: gray;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.text__area {
+  margin-left: 8px;
+}
